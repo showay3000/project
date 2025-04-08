@@ -1,0 +1,242 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SME Support Initiative - Ministry of Trade</title>
+    <style>
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            margin: 0;
+            padding: 0;
+            color: #333;
+            line-height: 1.6;
+        }
+        
+        header {
+            background: linear-gradient(135deg, #1e5799 0%,#207cca 51%,#2989d8 100%);
+            color: white;
+            padding: 2rem 0;
+            text-align: center;
+        }
+        
+        .container {
+            width: 85%;
+            max-width: 1200px;
+            margin: 0 auto;
+        }
+        
+        h1 {
+            font-size: 2.5rem;
+            margin-bottom: 1rem;
+        }
+        
+        h2 {
+            color: #2989d8;
+            border-bottom: 2px solid #2989d8;
+            padding-bottom: 0.5rem;
+            margin-top: 2rem;
+        }
+        
+        .hero {
+            display: flex;
+            align-items: center;
+            margin: 2rem 0;
+        }
+        
+        .hero-text {
+            flex: 1;
+            padding-right: 2rem;
+        }
+        
+        .hero-image {
+            flex: 1;
+        }
+        
+        .hero-image img {
+            width: 100%;
+            border-radius: 8px;
+            box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+        }
+        
+        .features {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 2rem;
+            margin: 3rem 0;
+        }
+        
+        .feature-card {
+            background: white;
+            border-radius: 8px;
+            padding: 1.5rem;
+            box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+            transition: transform 0.3s ease;
+        }
+        
+        .feature-card:hover {
+            transform: translateY(-5px);
+        }
+        
+        .feature-card h3 {
+            color: #207cca;
+        }
+        
+        .video-container {
+            margin: 3rem 0;
+            text-align: center;
+        }
+        
+        .video-wrapper {
+            position: relative;
+            padding-bottom: 56.25%; /* 16:9 aspect ratio */
+            height: 0;
+            overflow: hidden;
+            max-width: 800px;
+            margin: 0 auto;
+            border-radius: 8px;
+            box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+        }
+        
+        .video-wrapper iframe {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            border: none;
+        }
+        
+        .cta {
+            background: #f8f9fa;
+            padding: 3rem;
+            text-align: center;
+            margin: 3rem 0;
+            border-radius: 8px;
+        }
+        
+        .btn {
+            display: inline-block;
+            background: #2989d8;
+            color: white;
+            padding: 0.8rem 1.5rem;
+            border-radius: 4px;
+            text-decoration: none;
+            font-weight: bold;
+            margin-top: 1rem;
+            transition: background 0.3s ease;
+        }
+        
+        .btn:hover {
+            background: #1e5799;
+        }
+        
+        footer {
+            background: #333;
+            color: white;
+            text-align: center;
+            padding: 2rem 0;
+            margin-top: 3rem;
+        }
+        
+        @media (max-width: 768px) {
+            .hero {
+                flex-direction: column;
+            }
+            
+            .hero-text {
+                padding-right: 0;
+                margin-bottom: 2rem;
+            }
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="container">
+            <h1>Supporting Small and Medium Enterprises</h1>
+            <p>Ministry of Trade Initiative for Business Growth and Innovation</p>
+        </div>
+    </header>
+    
+    <div class="container">
+        <section class="hero">
+            <div class="hero-text">
+                <h2>Why Support SMEs?</h2>
+                <p>Small and medium sized enterprises (SMEs), particularly those in the most innovative sectors, are important drivers of employment and output growth. An efficient business support system, easy to navigate, evaluate and manage is essential to facilitate the creation and prosperity of businesses.</p>
+                <p>Various initiatives such as business advice, improved access to finance and funding, and knowledge exchange and innovation, can help cities attract new businesses and improve private-sector performance, in particular for SMEs.</p>
+            </div>
+            <div class="hero-image">
+                <img src="https://images.unsplash.com/photo-1552664730-d307ca884978?ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60" alt="Business team meeting">
+            </div>
+        </section>
+        
+        <section class="video-container">
+            <h2>Our SME Support Program</h2>
+            <div class="video-wrapper">
+                <iframe src="https://www.youtube.com/embed/K1wW6kix-Gc?si=GaJSfZXvlGUAU6f4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+            </div>
+            <p><a href="#">Download the transcript</a></p>
+        </section>
+        
+        <section>
+            <h2>Support Services We Offer</h2>
+            <div class="features">
+                <div class="feature-card">
+                    <h3>Business Advisory Services</h3>
+                    <p>Get expert advice on business planning, financial management, marketing strategies, and operational efficiency from our team of experienced advisors.</p>
+                    <img src="https://images.unsplash.com/photo-1579621970563-ebec7560ff3e?ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60" alt="Business advice" style="width:100%; margin-top:1rem;">
+                </div>
+                
+                <div class="feature-card">
+                    <h3>Access to Funding</h3>
+                    <p>We connect SMEs with financial institutions and grant programs to help secure the capital needed for growth and innovation.</p>
+                    <img src="https://images.unsplash.com/photo-1554224155-6726b3ff858f?ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60" alt="Funding" style="width:100%; margin-top:1rem;">
+                </div>
+                
+                <div class="feature-card">
+                    <h3>Training & Workshops</h3>
+                    <p>Regular training sessions on digital skills, financial literacy, and business management to help your SME thrive in competitive markets.</p>
+                    <img src="https://images.unsplash.com/photo-1491438590914-bc09fcaaf77a?ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60" alt="Training" style="width:100%; margin-top:1rem;">
+                </div>
+            </div>
+        </section>
+        
+        <section class="cta">
+            <h2>Ready to Grow Your Business?</h2>
+            <p>Join thousands of SMEs benefiting from our support programs today</p>
+            <a href="#" class="btn">Register Your Business</a>
+            <a href="#" class="btn">Contact Our Advisors</a>
+        </section>
+        
+        <section>
+            <h2>Success Stories</h2>
+            <div class="features">
+                <div class="feature-card">
+                    <h3>TechStart Solutions</h3>
+                    <p>From 3 employees to 50 in just 2 years with our innovation grant and mentorship program.</p>
+                    <audio controls style="width:100%; margin-top:1rem;">
+                        <source src="techstart-interview.mp3" type="audio/mpeg">
+                        Your browser does not support the audio element.
+                    </audio>
+                </div>
+                
+                <div class="feature-card">
+                    <h3>GreenFarm Organics</h3>
+                    <p>Expanded to export markets after participating in our international trade workshop series.</p>
+                    <img src="https://images.unsplash.com/photo-1464226184884-fa280b87c399?ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60" alt="GreenFarm" style="width:100%; margin-top:1rem;">
+                </div>
+            </div>
+        </section>
+    </div>
+    
+    <footer>
+        <div class="container">
+            <p>Ministry of Trade - SME Support Division</p>
+            <p>Contact us: sme-support@trade.gov | +254 700 123 456</p>
+            <p>© 2025 All Rights Reserved</p>
+        </div>
+    </footer>
+</body>
+</html>
+na ndio hio code hapo uta run na live sever hiyo ni extention
